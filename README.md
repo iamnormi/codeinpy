@@ -1,4 +1,4 @@
-# pyCodes
+# codeinpy
 
 Some Python Code.
 

@@ -18,5 +18,6 @@ http_response = repr(response)
 http_response_len = len(http_response)
  
 #display the response
-gh_imgui.text("[RECV] - length: %d" % http_response_len)
-gh_imgui.text_wrapped(http_response)
+#gh_imgui.text("[RECV] - length: %d" % http_response_len)
+#gh_imgui.text_wrapped(http_response)
+print(http_response)

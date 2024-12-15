@@ -4,7 +4,8 @@ import subprocess
 import re
 
 # Fetch the RSS feed
-url = 'Enter RSS URL Here'
+#url = 'Enter RSS URL Here'
+url = input("Enter RSS URL: ")
 response = requests.get(url)
 
 # Parse the XML
